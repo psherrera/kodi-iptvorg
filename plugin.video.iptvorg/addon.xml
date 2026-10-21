@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="plugin.video.iptvorg"
        name="IPTV-org"
-       version="2.0.5"
+       version="2.0.6"
        provider-name="psherrera">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
@@ -23,7 +23,7 @@
         <license>Unlicense</license>
         <source>https://github.com/iptv-org/iptv</source>
         <website>https://iptv-org.github.io</website>
-        <news>v2.0.5 - Iconos propios para las categorias del inicio, categorias e idiomas; limpieza de nombres con HTML.</news>
+        <news>v2.0.6 - Favoritos desde la interfaz Netflix (menu contextual / tecla C) y arreglo de "se cierra el addon" al parar un canal o volver.</news>
         <assets>
             <icon>icon.png</icon>
             <fanart>fanart.jpg</fanart>
