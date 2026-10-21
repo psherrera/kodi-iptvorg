@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addons><addon id="plugin.video.iptvorg" name="IPTV-org" version="2.0.1" provider-name="psherrera">
+<addons><addon id="plugin.video.iptvorg" name="IPTV-org" version="2.0.5" provider-name="psherrera">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
     </requires>
@@ -20,7 +20,7 @@
         <license>Unlicense</license>
         <source>https://github.com/iptv-org/iptv</source>
         <website>https://iptv-org.github.io</website>
-        <news>v1.0.0 - Primera versión: países, subdivisiones, categorías, idiomas, regiones, búsqueda y favoritos.</news>
+        <news>v2.0.5 - Iconos propios para las categorias del inicio, categorias e idiomas; limpieza de nombres con HTML.</news>
         <assets>
             <icon>icon.png</icon>
             <fanart>fanart.jpg</fanart>
