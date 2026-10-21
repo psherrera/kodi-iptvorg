@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.iptvorg"
+       name="IPTV-org"
+       version="2.0.1"
+       provider-name="psherrera">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="main.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.python.script" library="main.py">
+        <provides>executable</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="es_ES">Canales de TV públicos de todo el mundo (iptv-org)</summary>
+        <summary lang="en_GB">Publicly available TV channels from all over the world (iptv-org)</summary>
+        <description lang="es_ES">Navegá las listas del proyecto iptv-org/iptv por país, provincia/estado, categoría, idioma y región. Incluye búsqueda, favoritos y caché local. El addon no aloja ningún contenido: solo lee las listas M3U públicas que publica iptv-org.</description>
+        <description lang="en_GB">Browse the iptv-org/iptv playlists by country, subdivision, category, language and region. Includes search, favourites and a local cache. This addon hosts no content: it only reads the public M3U playlists published by iptv-org.</description>
+        <disclaimer lang="es_ES">Los enlaces provienen de iptv-org/iptv y pueden dejar de funcionar en cualquier momento. Algunos canales pueden estar bloqueados según tu región.</disclaimer>
+        <disclaimer lang="en_GB">Links come from iptv-org/iptv and may stop working at any time. Some channels may be geo-blocked.</disclaimer>
+        <platform>all</platform>
+        <license>Unlicense</license>
+        <source>https://github.com/iptv-org/iptv</source>
+        <website>https://iptv-org.github.io</website>
+        <news>v1.0.0 - Primera versión: países, subdivisiones, categorías, idiomas, regiones, búsqueda y favoritos.</news>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
